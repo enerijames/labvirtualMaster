@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Laboratório Virtual de Biologia. Questionários, jogos, atividades práticas e muito mais!">
+    <meta name="author" content="Vitor Régis de Ramos">
+
+    <!-- Title Page-->
+    <title>Laboratório Virtual de Biologia</title>
+
+    <!-- Fontfaces CSS-->
+    <link href="../../css/font-face.css" rel="stylesheet" media="all">
+    <link href="../../vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="../../vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="../../vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="../../vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="../../vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+
+    <!-- Main CSS-->
+    <link href="../../css/main.css" rel="stylesheet" media="all">
+
+</head>
+
+<body class="animsition">
+    <div class="page-wrapper">
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="home.html">
+                            <img src="../../images/icon/logo.png" class="mobile-logo" />
+                        </a>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar-mobile">
+                <div class="container-fluid">
+                    <ul class="navbar-mobile__list list-unstyled">
+                        <li>
+                            <a href="../home.html">
+                                <i class="fas fa-tachometer-alt"></i>Início</a>
+                        </li>
+                        <li>
+                            <a href="../jogos.html">
+                                <i class="fas fa-gamepad"></i>Jogos</a>
+                        </li>
+                        <li>
+                            <a href="../questionarios.html">
+                                <i class="fas fa-tasks"></i>Questionários</a>
+                        </li>
+                        <li>
+                            <a href="../conteudo-teorico.html">
+                                <i class="fas fa-align-justify"></i>Conteúdo Teórico</a>
+                        </li>
+                        <li>
+                            <a href="../aulas-praticas.html">
+                                <i class="fas fa-vials"></i>Aulas Práticas</a>
+                        </li>
+                        <li>
+                            <a href=../ "forum.html">
+                                <i class="fa fa-comment"></i>Fórum</a>
+                        </li>
+
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-plus"></i>Extras</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li class="">
+                                    <a href="../portifolio.html">Portfólio</a>
+                                </li>
+                                <li>
+                                    <a href="../trofeus.html">Troféus</a>
+
+                            </ul>
+                            </li>
+
+                            <li class="has-sub">
+                                <a class="js-arrow" href="#">
+                                    <i class="fas fa-cog"></i>Configurações</a>
+                                <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                    <li class="">
+                                        <a href="../minhaconta.html">Minha Conta</a>
+                                    </li>
+                                    <li>
+                                        <a href="../alterardados.html">Alterar Dados</a>
+                                    </li>
+                                    <li>
+                                        <a href="../suporte.html">Suporte</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="has-sub">
+                                <a class="js-arrow" href="#">
+                                    <i class="fas fa-cog"></i>Gerenciamento</a>
+                                <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                    <li class="">
+                                        <a href="../controle-turmas.html">Controle de Turmas</a>
+                                    </li>
+                                    <li>
+                                        <a href="../controle-alunos.html">Controle de Alunos</a>
+                                    </li>
+                                </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- END HEADER MOBILE-->
+
+        <!-- MENU SIDEBAR-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+                <a href="../#">
+                    <img src="../../images/icon/logo.png" />
+                </a>
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                        <li class="">
+                            <a href="../home.html">
+                                <i class="fas fa-tachometer-alt"></i>Início</a>
+                        </li>
+                        <li>
+                            <a href="../jogos.html">
+                                <i class="fas fa-gamepad"></i>Jogos</a>
+                        </li>
+                        <li>
+                            <a href="../questionarios.html">
+                                <i class="fas fa-tasks"></i>Questionários</a>
+                        </li>
+
+                        <li class="active">
+                            <a href="../pages/../conteudo-teorico.html">
+                                <i class="fas fa-align-justify"></i>Conteúdo Teórico</a>
+                        </li>
+                        <li>
+                            <a href="../pages/../aulas-praticas.html">
+                                <i class="fas fa-vials"></i>Aulas Práticas</a>
+                        </li>
+
+                        <li>
+                            <a href="../forum.html">
+                                <i class="fas fa-comment"></i>Fórum</a>
+
+                        </li>
+
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-plus"></i>Extras</a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li class="">
+                                    <a href="../portifolio.html">Portfólio</a>
+                                </li>
+                                <li>
+                                    <a href="../trofeus.html">Troféus</a>
+
+                            </ul>
+                            </li>
+
+                            <li class="has-sub">
+                                <a class="js-arrow" href="#">
+                                    <i class="fas fa-cog"></i>Configurações</a>
+                                <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                    <li class="">
+                                        <a href="../minhaconta.html">Minha Conta</a>
+                                    </li>
+                                    <li>
+                                        <a href="../alterardados.html">Alterar Dados</a>
+                                    </li>
+                                    <li>
+                                        <a href="../suporte.html">Suporte</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="has-sub">
+                                <a class="js-arrow" href="#">
+                                    <i class="fas fa-cog"></i>Gerenciamento</a>
+                                <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                    <li class="">
+                                        <a href="../controle-turmas.html">Controle de Turmas</a>
+                                    </li>
+                                    <li>
+                                        <a href="../controle-alunos.html">Controle de Alunos</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            <div class="d-flex">
+                                <button class="au-btn--collapse m-l-0 m-r-10 d-none d-lg-block" id="sideCollapseButton"><i class="fa fa-angle-double-left"></i> </button>
+                                <form class="form-header" action="" method="POST">
+                                    <input class="au-input au-input--xl" type="text" name="Procurar" placeholder="Procurar por jogos, questionários ou páginas"
+                                    />
+                                    <button class="au-btn--submit" type="submit">
+                                        <i class="zmdi zmdi-search"></i>
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="header-button">
+                                <div class="noti-wrap">
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-notifications"></i>
+                                        <span class="quantity">3</span>
+
+                                        <div class="notifi-dropdown js-dropdown">
+                                            <div class="notifi__title">
+                                                <p>Você tem 3 notificações</p>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c1 img-cir img-40">
+                                                    <i class="zmdi zmdi-email-open"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>Você recebeu uma mensagem de Aline Leal</p>
+                                                    <span class="date">April 12, 2018 06:50</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c2 img-cir img-40">
+                                                    <i class="zmdi zmdi-account-box"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>Uma tarefa foi solicitada por Aline Leal</p>
+                                                    <span class="date">April 12, 2018 06:50</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="account-wrap">
+                                    <div class="account-item clearfix js-item-menu">
+                                        <div class="image">
+                                            <img src="../../images/blank-profile.png" id="profile" alt="John Doe" />
+                                        </div>
+                                        <div class="content">
+                                            <a class="js-acc-btn" href="../#" id="alunoNome"></a>
+                                        </div>
+                                        <div class="account-dropdown js-dropdown">
+                                            <div class="info clearfix">
+                                                <div class="image">
+                                                    <a href="../#">
+                                                        <img src="../../images/blank-profile.png" id="profile1" alt="John Doe" />
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="name">
+                                                        <a href="../#" id="alunoNome1"></a>
+                                                    </h5>
+                                                    <span class="email" id="semestre"></span>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__body">
+                                                <div class="account-dropdown__item">
+                                                    <a href="../#">
+                                                        <i class="zmdi zmdi-account"></i>Minha Conta</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="../#">
+                                                        <i class="zmdi zmdi-settings"></i>Configurações</a>
+                                                </div>
+
+                                            </div>
+                                            <div class="account-dropdown__footer">
+                                                <a href="../#">
+                                                    <i class="zmdi zmdi-power"></i>Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- HEADER DESKTOP-->
+
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row m-b-10">
+                            <div class="col-md-12">
+                                <div class="title-wrap">
+                                    <h2 class="title-5 text-center">
+                                        <i class="fa fa-tasks"></i> Conteúdo sobre Material Genético</h2>
+                                    <button class="au-btn--green m-sm-b-15">
+                                        <a href="../conteudo-teorico.html">
+                                            <i class="fa fa-back"></i>voltar para conteúdos</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="accordion" id="accordionConteudos">
+
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h3 class="m-b-0" id="headingConteudo-dnaerna">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#conteudo-dnaerna" aria-expanded="false" aria-controls="conteudo-dnaerna">
+                                                    DNA e RNA
+                                                </button>
+                                            </h3>
+                                        </div>
+
+                                        <div id="conteudo-dnaerna" class="collapse" aria-labelledby="headingConteudo-dnaerna" data-parent="#accordionConteudos">
+                                            <div class="card-body">
+                                                <p>Os seres vivos apresentam dois tipos de material genético, que constituem
+                                                    os ácidos nucleicos, são eles: o
+                                                    <b>ácido desoxirribonucleico (DNA)</b> e o
+                                                    <b>ácido ribonucleico (RNA)</b>. Esses ácidos nucleicos são formados por
+                                                    uma sequência de nucleotídeos, os quais são a união de três tipos de
+                                                    moléculas: um fosfato, uma pentose (açúcar com cinco átomos de carbono)
+                                                    e uma base nitrogenada. A pentose presente no RNA é a
+                                                    <b>ribose</b> e a encontrada no DNA é a
+                                                    <b>desoxirribose</b>, assim denominada por ter um oxigênio a menos que a
+                                                    ribose (Imagem 1).</p>
+                                                <div class="row m-t-30 d-flex justify-content-center">
+                                                    <img class="m-t-5" alt="Estrutura química do açucares desoxirribose e ribose encontrados
+                                                    no DNA e RNA respectivamente." src="../../images/conteudoteorico-materialgenetico/1.jpg"
+                                                    />
+                                                </div>
+                                                <hr />
+                                                <p class="img-desc">
+                                                    <b>Imagem 1.</b> Estrutura química do açucares desoxirribose e ribose encontrados
+                                                    no DNA e RNA respectivamente. Fonte da imagem 1: http://biology.stackexchange.com/questions/37038/why-is-the-dna-helix-anti-parallel
+                                                    (traduzida).
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h3 class="m-b-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#conteudo-basesnitrogenadas" aria-expanded="false"
+                                                    aria-controls="collapseTwo">
+                                                    Bases Nitrogenadas
+                                                </button>
+                                            </h3>
+                                        </div>
+                                        <div id="conteudo-basesnitrogenadas" class="collapse" aria-labelledby="conteudo-basesnitrogenadas" data-parent="#accordionConteudos">
+                                            <div class="card-body">
+                                                <p>As
+                                                    <b>bases nitrogenadas</b> são formadas por
+                                                    <b>anéis de carbono e nitrogênio</b> e podem ser de cinco tipos. Três são
+                                                    encontradas tanto no DNA quanto no RNA:
+                                                    <b>adenina (A)</b>,
+                                                    <b>citosina (C)</b> e
+                                                    <b>guanina (G)</b> (Imagem 2). A
+                                                    <b>timina (T) é exclusiva do DNA</b> e a
+                                                    <b>uracila (U) é encontrada apenas nas moléculas de RNA</b> (Imagem 2).
+                                                </p>
+                                                <div class="row m-t-30 d-flex justify-content-center">
+                                                    <img class="m-t-5" alt=" Composição de um nucleotídeo de RNA e um de DNA." src="../../images/conteudoteorico-materialgenetico/2.jpg"
+                                                    />
+                                                </div>
+                                                <hr />
+                                                <p class="img-desc">
+                                                    <b>Imagem 2.</b> Composição de um nucleotídeo de RNA e um de DNA. Fonte
+                                                    da imagem 2: http://www.resumov.com.br/biologia/biologia-molecular/acidos-nucleicos-dna/
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h3 class="m-b-0" id="headingConteudo-duplahelice">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#conteudo-duplahelice" aria-expanded="false"
+                                                    aria-controls="conteudo-duplahelice">
+                                                    Dupla Hélice
+                                                </button>
+                                            </h3>
+                                        </div>
+                                        <div id="conteudo-duplahelice" class="collapse" aria-labelledby="headingConteudo-duplahelice" data-parent="#accordionConteudos">
+                                            <div class="card-body">
+
+                                                <p>O DNA é constituído por
+                                                    <b>dois filamentos paralelos</b> e muito próximos, que se enrolam
+                                                    <b>helicoidalmente</b> no espaço; por isso, costuma-se dizer que o DNA é
+                                                    uma
+                                                    <b>dupla-hélice</b>. Esses dois filamentos paralelos na verdade são sequências
+                                                    de vários nucleotídeos ligados entre si por
+                                                    <b>pontes de hidrogênio</b> estabelecidas entre as bases nitrogenadas complementares
+                                                    <b>(adenina e timina; guanina e citosina)</b> conforme imagem 3. </p>
+
+                                                <div class="row m-t-30 d-flex justify-content-center">
+                                                    <img class="m-t-5" alt="Estrutura do DNA fita simples, fita dupla e dupla hélice.
+                                                    A: adenina; T: timina; G: guanina; C: citosina." src="../../images/conteudoteorico-materialgenetico/3.jpg"
+                                                    />
+                                                </div>
+                                                <hr />
+                                                <p class="img-desc">
+                                                    <b>Imagem 3.</b> Estrutura do DNA fita simples, fita dupla e dupla hélice.
+                                                    A: adenina; T: timina; G: guanina; C: citosina. Fonte da imagem 3: http://bioelogia.blogspot.com.br/2012/07/genetica-parte-2.html.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h3 class="m-b-0" id="headingConteudo-transcricao">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#conteudo-transcricao" aria-expanded="false"
+                                                    aria-controls="conteudo-transcricao">
+                                                    Transcrição
+                                                </button>
+                                            </h3>
+                                        </div>
+                                        <div id="conteudo-transcricao" class="collapse" aria-labelledby="headingConteudo-transcricao" data-parent="#accordionConteudos">
+                                            <div class="card-body">
+
+                                                <p>
+                                                    <b>A partir de uma fita de DNA é produzido o RNA</b> em um processo denominado
+                                                    <b>transcrição</b>. Assim, o RNA é constituído, geralmente, por uma
+                                                    <b>única cadeia de nucleotídeos</b> e tem como principal função a síntese
+                                                    de proteínas.
+                                                </p>
+
+                                                <div class="row m-t-30 d-flex justify-content-center">
+                                                    <img class="m-t-5" alt="Transcrição: produção de RNA a partir de DNA." src="../../images/conteudoteorico-materialgenetico/4.jpg"
+                                                    />
+                                                </div>
+                                                <hr />
+                                                <p class="img-desc">
+                                                    <b>Imagem 4.</b> Transcrição: produção de RNA a partir de DNA. Complementariedade
+                                                    das bases nitrogenadas T:A; A:U; G:C; C:G. O RNA apresenta no lugar da
+                                                    base nitrogenada timina a uracila. Fonte da imagem 4: https://djalmasantos.wordpress.com/2014/07/16/sintese-proteica/.
+                                                </p>
+                                                <p class="img-desc">Fonte do texto: AMABIS, J. M.; MARTHO, G. R. Biologia em contexto. Volume
+                                                    1: Do universo às células vivas. 1ª ed. São Paulo: Ed. Moderna, 2013.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h3 class="m-b-0" id="headingConteudo-nucleoide">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#conteudo-nucleoide" aria-expanded="false"
+                                                    aria-controls="conteudo-nucleoide">
+                                                    Nucleóide
+                                                </button>
+                                            </h3>
+                                        </div>
+                                        <div id="conteudo-nucleoide" class="collapse" aria-labelledby="headingConteudo-nucleoide" data-parent="#accordionConteudos">
+                                            <div class="card-body">
+
+                                                <p>A maioria dos seres procarióticos possuem apenas
+                                                    <b>um cromossomo</b>, ou seja, uma molécula de DNA que contém a informação
+                                                    genética, que recebe o nome de
+                                                    <b>nucleoide</b>. Esse cromossomo é circular, porém não constitui um círculo
+                                                    perfeito; pois seria muito extenso e não caberia dentro de uma célula
+                                                    bacteriana. Assim,
+                                                    <b>o cromossomo procariótico dobra-se sobre si mesmo</b>
+                                                    e está ligado a proteínas que ajudam na sua
+                                                    <b>compactação</b> (Imagem 5). </p>
+
+                                                <div class="row m-t-30 d-flex justify-content-center">
+                                                    <img class="m-t-5" alt="Desenho de célula procarionte com ênfase para o cromossomo
+                                                    denominado nucleoide." src="../../images/conteudoteorico-materialgenetico/5.jpg"
+                                                    />
+                                                </div>
+                                                <hr />
+                                                <p class="img-desc">
+                                                    <b>Imagem 5.</b>Desenho de célula procarionte com ênfase para o cromossomo
+                                                    denominado nucleoide. Autoria da imagem 5: Empresa Nosso Cartoon Design
+                                                    & Web Services.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="headingThree">
+                                            <h3 class="m-b-0" id="headingConteudo-cromossomoeucariotico">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#conteudo-cromossomoeucariotico"
+                                                    aria-expanded="false" aria-controls="conteudo-cromossomoeucariotico">
+                                                    Cromossomo eucariótico
+                                                </button>
+                                            </h3>
+                                        </div>
+                                        <div id="conteudo-cromossomoeucariotico" class="collapse" aria-labelledby="headingConteudo-cromossomoeucariotico" data-parent="#accordionConteudos">
+                                            <div class="card-body">
+
+                                                <p>O cromossomo eucariótico consiste em
+                                                    <b>duas moléculas de DNA</b> gigantescas, lineares de dupla-fita complexadas
+                                                    com muitas proteínas para formar um material denso chamado de
+                                                    <b>cromatina</b>. Cada uma dessas moléculas de DNA recebe o nome de
+                                                    <b>cromátide-irmã</b> (Imagem 6). As cromátides-irmãs unem-se por quase
+                                                    toda sua extensão por um conjunto proteico chamado de
+                                                    <b>coesina</b>. Elas permanecem desta forma até a mitose, quando a maior
+                                                    parte da coesina é removida, exceto em uma região chamada de
+                                                    <b>centrômero</b> (Imagem 6 e 7). Na maioria dos eucariotos, existem sequências
+                                                    repetidas de bases nitrogenadas nas extremidades dos cromossomos chamadas
+                                                    de
+                                                    <b>telômeros</b> (Imagem 7). Essas repetições ligam-se a proteínas especiais
+                                                    que
+                                                    <b>mantém a estabilidade das extremidades dos cromossomos</b>. Cada cromossomo
+                                                    humano pode perder de 50 a 200 pares de bases de DNA telomérico após
+                                                    cada rodada de replicação de DNA e divisão celular. Após 20 a 30 divisões,
+                                                    os cromossomos ficam incapazes de proceder a uma divisão celular e a
+                                                    célula morre. Esse processo de morte celular programada é denominado
+                                                    de
+                                                    <b>apoptose</b>. Em células que mantêm a capacidade de se dividir constantemente,
+                                                    como as da medula óssea e produtoras de gametas, o DNA telomérico é mantido
+                                                    por uma enzima denominada
+                                                    <b>telomerase</b>, que adiciona as sequências teloméricas perdidas. A telomerase
+                                                    é encontrada em
+                                                    <b>90% das células cancerosas</b> humanas, o que explica a capacidade dessas
+                                                    células de se dividirem indefinidamente.
+                                                </p>
+                                                <div class="row m-t-30 d-flex justify-content-center">
+                                                    <img class="m-t-5" alt="Desenho de célula procarionte com ênfase para o cromossomo
+                                                    denominado nucleoide." src="../../images/conteudoteorico-materialgenetico/6.jpg"
+                                                    />
+                                                </div>
+                                                <hr />
+                                                <p class="img-desc">
+                                                    <b>Imagem 6.</b> Desenho de célula procarionte com ênfase para o cromossomo
+                                                    denominado nucleoide. Autoria da imagem 5: Empresa Nosso Cartoon Design
+                                                    & Web Services.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="headingConteudo-compactacaodna">
+                                            <h3 class="m-b-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#conteudo-compactacaodna" aria-expanded="false"
+                                                    aria-controls="conteudo-compactacaodna">
+                                                    A compactação do DNA
+                                                </button>
+                                            </h3>
+                                        </div>
+                                        <div id="conteudo-compactacaodna" class="collapse" aria-labelledby="headingConteudo-compactacaodna" data-parent="#accordionConteudos">
+                                            <div class="card-body">
+
+                                                <p>Se todas as moléculas de DNA de uma célula humana fossem colocadas uma atrás
+                                                    da outra, apresentaria um comprimento aproximado de 2 metros. Porém,
+                                                    o núcleo desta célula possui um diâmetro de apenas 5 µm (0,000005 metros).
+                                                    Desta forma, mesmo o DNA do núcleo em intérfase é impressionantemente
+                                                    compactado. Essa compactação é alcançada principalmente pela
+                                                    <b>ligação do DNA a proteínas denominadas histonas</b> (Imagens 7 e 8).
+                                                    Cada grânulo ou glóbulo de histona com seu DNA enrolado ao redor constitui
+                                                    uma unidade estrutural denominada de nucleossomo, o qual se repete ao
+                                                    longo do filamento cromossômico. A associação entre nucleossomos vizinhos
+                                                    forma o
+                                                    <b>solenoide</b>, estrutura com aproximadamente 30 nm de espessura. Ocorre
+                                                    ainda a
+                                                    <b>associação do solenoide com um esqueleto proteico</b>, deixando o DNA
+                                                    mais compactado, com aproximadamente 300 nm, sendo denominado nesta fase
+                                                    de
+                                                    <b>cromonema</b>. Durante a divisão celular, o cromossomo enrola-se sobre
+                                                    si mesmo, assumindo um estado mais condensado, com 700 nm de espessura
+                                                    (Imagem 8). </p>
+
+                                                <div class="row m-t-30 d-flex justify-content-center">
+                                                    <img class="m-t-5" alt=" Desenho esquemático do corpo humano, célula eucarionte
+                                                    e DNA" src="../../images/conteudoteorico-materialgenetico/7.jpg" />
+                                                    <img class="m-t-5" alt=" Desenho esquemático da arquitetura de um cromossomo eucariótico." src="../../images/conteudoteorico-materialgenetico/8.jpg"
+                                                    />
+                                                </div>
+
+                                                <hr />
+                                                <p class="img-desc">
+                                                    <b>Imagem 7.</b> Desenho esquemático do corpo humano, célula eucarionte
+                                                    e DNA. Fonte da imagem 7: http://vendandoodna2010.blogspot.com.br/ (traduzida).
+                                                </p>
+                                                <p class="img-desc">
+                                                    <b>Imagem 8.</b> Desenho esquemático da arquitetura de um cromossomo eucariótico.
+                                                    Fonte da imagem 8: https://thinkbio.wordpress.com/2012/01/02/o-nucleo-celular/.
+                                                </p>
+                                                <p class="img-desc">
+                                                    <b>Fonte do texto: </b> SADAVA, D.; HELLER, H. C.; ORIANS, G. H.; PURVES,
+                                                    W. K.; HILLIS, D. M. Vida: A Ciência da Biologia. Volume I: Célula e
+                                                    Hereditariedade. 8ª ed. Porto Alegre: Artmed, 2009.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="headingConteudo-classificacaocromossomos">
+                                            <h3 class="m-b-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#conteudo-classificacaocromossomos"
+                                                    aria-expanded="false" aria-controls="conteudo-classificacaocromossomos">
+                                                    Classifição dos Cromossomos
+                                                </button>
+                                            </h3>
+                                        </div>
+                                        <div id="conteudo-classificacaocromossomos" class="collapse" aria-labelledby="headingConteudo-classificacaocromossomos" data-parent="#accordionConteudos">
+                                            <div class="card-body">
+
+                                                <p>Os cromossomos eucarióticos podem ser classificados em
+                                                    <b>quatro tipos</b> conforme a posição do centrômero (Imagem 9). No
+                                                    <b>metacêntrico</b>, o centrômero divide o cromossomo em
+                                                    <b>dois braços de mesmo tamanho</b>. No
+                                                    <b>submetacêntrico</b>, o centrômero é deslocado da região mediana, definindo
+                                                    <b>dois braços de tamanhos desiguais</b>. No
+                                                    <b>acrocêntrico</b>, o centrômero localiza-se perto de uma das extremidades,
+                                                    havendo
+                                                    <b>um braço bem maior que o outro</b>. Já no
+                                                    <b>telocêntrico</b>, o centrômero localiza-se na extremidade, originando
+                                                    um cromossomo com
+                                                    <b>apenas um braço</b>.
+                                                </p>
+                                                <div class="row m-t-30 d-flex justify-content-center">
+                                                    <img class="m-t-5" alt="Classificação dos cromossomos." src="../../images/conteudoteorico-materialgenetico/9.jpg" />
+                                                </div>
+                                                <hr />
+                                                <p class="img-desc">
+                                                    <b>Imagem 9.</b>Classificação dos cromossomos. A: metacêntrico; B: submetacêntrico;
+                                                    C: acrocêntrico; D: telocêntrico. Fonte da imagem 9: http://fabiologicamente.blogspot.com.br/2012/05/cromossomos-sabendo-um-pouco-mais.html.
+                                                </p>
+                                                <p class="img-desc">
+                                                    <b>Fonte do texto:</b>AMABIS, J. M.; MARTHO, G. R. Biologia em contexto.
+                                                    Volume 1: Do universo às células vivas. 1ª ed. São Paulo: Ed. Moderna,
+                                                    2013.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingConteudo-conceitosimportantes">
+                                            <h3 class="m-b-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#conteudo-conceitosimportantes"
+                                                    aria-expanded="false" aria-controls="conteudo-conceitosimportantes">
+                                                    Conceitos Importantes
+                                                </button>
+                                            </h3>
+                                        </div>
+                                        <div id="conteudo-conceitosimportantes" class="collapse" aria-labelledby="headingConteudo-conceitosimportantes" data-parent="#accordionConteudos">
+                                            <div class="card-body only-subs">
+
+                                                <div id="accordionConceitosImportantes">
+                                                    <!-- CONCEITOS IMPORTANTES -->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingConteudo-cromossomoshomologos">
+                                                            <h2 class="m-b-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#conteudo-cromossomoshomologos"
+                                                                    aria-expanded="false" aria-controls="conteudo-cromossomoshomologos">
+                                                                    Cromossomos Homologos
+                                                                </button>
+                                                            </h2>
+                                                        </div>
+                                                        <div id="conteudo-cromossomoshomologos" class="collapse" aria-labelledby="headingConteudo-cromossomoshomologos" data-parent="#accordionConceitosImportantes">
+                                                            <div class="card-body">
+                                                                <p>É um par de cromossomos de mesmo tipo, sendo um proveniente
+                                                                    do pai e outro da mãe. Na espécie humana, encontramos
+                                                                    <b>23 pares de cromossomos homólogos</b>
+                                                                    nas nossas células somáticas (não reprodutivas). Os cromossomos homólogos possuem genes para uma
+                                                                    <b>determinada característica</b> organizado na mesma sequência
+                                                                    em cada um deles conforme a imagem 10.
+                                                                </p>
+                                                                <div class="row m-t-30 d-flex justify-content-center">
+                                                                    <img class="m-t-5" alt="Desenho esquemático de cromossomos homólogos." src="../../images/conteudoteorico-materialgenetico/10.jpg"
+                                                                    />
+                                                                </div>
+
+                                                                <hr />
+                                                                <p class="img-desc">
+                                                                    <b>Imagem 10.</b>Desenho esquemático de cromossomos homólogos.
+                                                                    Fonte da imagem 10: https://www.todamateria.com.br/introducao-a-genetica/.</p>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingConteudo-celulashaploides">
+                                                            <h2 class="m-b-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#conteudo-celulashaploides" aria-expanded="false"
+                                                                    aria-controls="conteudo-celulashaploides">
+                                                                    Células Haploides
+                                                                </button>
+                                                            </h2>
+                                                        </div>
+                                                        <div id="conteudo-celulashaploides" class="collapse" aria-labelledby="headingConteudo-celulashaploides" data-parent="#accordionConceitosImportantes">
+                                                            <div class="card-body">
+                                                                <p>São células que possuem apenas
+                                                                    <b>um lote de cromossomos</b>, caso dos gametas feminino
+                                                                    e masculino. Na espécie humana, tanto o óvulo como o
+                                                                    espermatozoide possuem
+                                                                    <b>23</b> cromossomos cada um.
+                                                                </p>
+
+                                                                <div class="row m-t-30 d-flex justify-content-center">
+                                                                    <img class="m-t-5" alt="Desenho esquemático de cromossomos homólogos." src="../../images/conteudoteorico-materialgenetico/10.jpg"
+                                                                    />
+                                                                </div>
+
+                                                                <hr />
+                                                                <p class="img-desc">
+                                                                    <b>Imagem 10.</b>Desenho esquemático de cromossomos homólogos.
+                                                                    Fonte da imagem 10: https://www.todamateria.com.br/introducao-a-genetica/.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingConteudo-celulasdiploides">
+                                                            <h2 class="m-b-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#conteudo-celulasdiploides" aria-expanded="false"
+                                                                    aria-controls="conteudo-celulasdiploides">
+                                                                    Células Diploides
+                                                                </button>
+                                                            </h2>
+                                                        </div>
+                                                        <div id="conteudo-celulasdiploides" class="collapse" aria-labelledby="headingConteudo-celulasdiploides" data-parent="#accordionConceitosImportantes">
+                                                            <div class="card-body">
+                                                                <p>São células que possuem
+                                                                    <b>dois lotes de cromossomos</b>, que são os cromossomos
+                                                                    homólogos, sendo
+                                                                    <b>um lote proveniente do pai e o outro da mãe</b>. É o
+                                                                    caso do zigoto e das células somáticas (não reprodutivas)
+                                                                    do nosso corpo. Na espécie humana, as células diploides
+                                                                    apresentam um
+                                                                    <b>total de 46 cromossomos</b>, divididos em 23 pares.
+                                                                </p>
+                                                                <div class="row m-t-30 d-flex justify-content-center">
+                                                                    <img class="m-t-5" alt="Desenho esquemático de cromossomos homólogos." src="../../images/conteudoteorico-materialgenetico/10.jpg"
+                                                                    />
+                                                                </div>
+
+                                                                <hr />
+                                                                <p class="img-desc">
+                                                                    <b>Imagem 10.</b>Desenho esquemático de cromossomos homólogos.
+                                                                    Fonte da imagem 10: https://www.todamateria.com.br/introducao-a-genetica/.</p>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingConteudo-genes">
+                                                            <h2 class="m-b-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#conteudo-genes" aria-expanded="false"
+                                                                    aria-controls="conteudo-genes">
+                                                                    Genes
+                                                                </button>
+                                                            </h2>
+                                                        </div>
+                                                        <div id="conteudo-genes" class="collapse" aria-labelledby="headingConteudo-genes" data-parent="#accordionConceitosImportantes">
+                                                            <div class="card-body">
+                                                                <p>Trechos de DNA que possuem a
+                                                                    <b>informação para a produção de proteínas</b>.
+                                                                </p>
+                                                                <div class="row m-t-30 d-flex justify-content-center">
+                                                                    <img class="m-t-5" alt="Desenho esquemático de cromossomos homólogos." src="../../images/conteudoteorico-materialgenetico/10.jpg"
+                                                                    />
+                                                                </div>
+
+                                                                <hr />
+                                                                <p class="img-desc">
+                                                                    <b>Imagem 10.</b>Desenho esquemático de cromossomos homólogos.
+                                                                    Fonte da imagem 10: https://www.todamateria.com.br/introducao-a-genetica/.</p>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingConteudo-genoma">
+                                                            <h2 class="m-b-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#conteudo-genoma" aria-expanded="false"
+                                                                    aria-controls="conteudo-genes">
+                                                                    Genoma
+                                                                </button>
+                                                            </h2>
+                                                        </div>
+                                                        <div id="conteudo-genoma" class="collapse" aria-labelledby="headingConteudo-genoma" data-parent="#accordionConceitosImportantes">
+                                                            <div class="card-body">
+                                                                <p>Refere-se ao
+                                                                    <b>conjunto total de moléculas de DNA encontrados em um
+                                                                        indivíduo de determinada espécie</b>, o que inclui
+                                                                    os genes e o DNA que não codifica a produção de proteínas.
+                                                                </p>
+                                                                <div class="row m-t-30 d-flex justify-content-center">
+                                                                    <img class="m-t-5" alt="Desenho esquemático de cromossomos homólogos." src="../../images/conteudoteorico-materialgenetico/10.jpg"
+                                                                    />
+                                                                </div>
+
+                                                                <hr />
+                                                                <p class="img-desc">
+                                                                    <b>Imagem 10.</b>Desenho esquemático de cromossomos homólogos.
+                                                                    Fonte da imagem 10: https://www.todamateria.com.br/introducao-a-genetica/.</p>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingConteudo-cariotipo">
+                                                            <h2 class="m-b-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#conteudo-cariotipo" aria-expanded="false"
+                                                                    aria-controls="conteudo-cariotipo">
+                                                                    Cariótipo
+                                                                </button>
+                                                            </h2>
+                                                        </div>
+                                                        <div id="conteudo-cariotipo" class="collapse" aria-labelledby="headingConteudo-cariotipo" data-parent="#accordionConceitosImportantes">
+                                                            <div class="card-body">
+                                                                <p>Constitui o
+                                                                    <b>conjunto de cromossomos de uma célula</b>. Os cromossomos
+                                                                    podem ser divididos em
+                                                                    <b>autossômicos e sexuais</b>. Os
+                                                                    <b>autossômicos</b> são cromossomos encontrados
+                                                                    <b>igualmente</b> em todos os indivíduos de determinada
+                                                                    espécie, independente do sexo. Já os
+                                                                    <b>sexuais</b>,
+                                                                    <b>diferem</b> entre os sexos e são
+                                                                    <b>responsáveis pelas características femininas ou masculinas</b>.
+                                                                    Na espécie humana, por exemplo, as
+                                                                    <b>mulheres possuem dois cromossomos X</b>, enquanto os
+                                                                    <b>homens recebem um X da mãe e o cromossomo Y do pai</b>.
+                                                                </p>
+
+                                                                <div class="row m-t-30 d-flex justify-content-center">
+                                                                    <img class="m-t-5" alt="Desenho esquemático de cromossomos homólogos." src="../../images/conteudoteorico-materialgenetico/10.jpg"
+                                                                    />
+                                                                </div>
+
+                                                                <hr />
+                                                                <p class="img-desc">
+                                                                    <b>Imagem 10.</b>Desenho esquemático de cromossomos homólogos.
+                                                                    Fonte da imagem 10: https://www.todamateria.com.br/introducao-a-genetica/.</p>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- CONCEITOS IMPORTANTES -->
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="copyright">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- END MAIN CONTENT-->
+            <!-- END PAGE CONTAINER-->
+        </div>
+
+    </div>
+
+
+    <!-- Jquery JS-->
+    <script src="../../vendor/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="../../vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="../../vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <!-- Vendor JS -->
+    <script src="../../vendor/slick/slick.min.js"></script>
+    <script src="../../vendor/wow/wow.min.js"></script>
+    <script src="../../vendor/animsition/animsition.min.js"></script>
+    <script src="../../vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="../../vendor/select2/select2.min.js"></script>
+    <script src="../../vendor/isotope/isotope.pkgd.min.js"></script>
+
+    <!-- Main JS-->
+    <script src="../../js/main.js"></script>
+    <script src="../../js/authHandler.js"></script>
+    <script src="../../js/sideMenuCollapse.js"></script>
+    
+</body>
+
+</html>
+<!-- end document-->
