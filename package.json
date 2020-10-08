@@ -2,7 +2,7 @@
   "name": "biolab",
   "version": "0.0.1",
   "description": "Laboratório Virtual",
-  "main": "index.html",
+  "main": "src/index.html",
   "scripts": {
     "gulp": "gulp",
     "uglifyJS": "uglifyJS"
